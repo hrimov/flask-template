@@ -15,6 +15,7 @@ class Controller(Generic[Model]):
         self.model: type[Model] = type(Model)
 
     # some base operations
-    # Note: controller needs to also provide de(serialization), or it can be imported from the separate layer
+    # Note: controller needs to also provide de(serialization),
+    # or it can be imported from the separate layer
     def get(self, pk: int) -> Model:
         return self.session.get(self.model, pk)
