@@ -10,7 +10,7 @@ for Flask:
 
 Just clone the repo and run `poetry install`.
 For the checking example route at `localhost:5000/users/`
-you should have running Postgres with applied migration.
+you should have running Postgres with applied migration and simply run `python -m app`.
 
 # Advantages
 
