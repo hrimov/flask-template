@@ -4,3 +4,4 @@
 __pycache__/
 
 config/local.ini
+/.ruff_cache/
