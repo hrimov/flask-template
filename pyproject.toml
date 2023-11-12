@@ -2,7 +2,10 @@
 name = "flask-template"
 version = "0.1.0"
 description = "Flask project boilerplate"
-authors = ["hrimov <andrew.hrimov@gmail.com>"]
+authors = [
+    "hrimov <andrew.hrimov@gmail.com>",
+    "LazorykV <lazorkinv@gmail.com>"
+]
 license = "MIT"
 readme = "README.md"
 packages = [{ include = "app", from = "src" }]
@@ -13,6 +16,7 @@ flask = "^3.0.0"
 sqlalchemy = "^2.0.23"
 psycopg = "^3.1.12"
 alembic = "^1.12.1"
+ruff = "^0.1.5"
 pydantic = "^2.4.2"
 
 
