@@ -12,7 +12,7 @@ def run_dev(
     port = 5000 if port is None else port
 
     app = create_app()
-    app.run(host=host, port=port)
+    app.run(host=host, port=port, debug=True)
 
 
 if __name__ == "__main__":

@@ -3,8 +3,8 @@
 This repo will contain several project structure templates
 for Flask:
 
-- MVC (**current branch**)
-- Layered (TBD)
+- [MVC](https://github.com/hrimov/flask-template/tree/structure/MVC)
+- Layered (**current branch**)
 
 # Installation
 
@@ -16,7 +16,9 @@ you should have running Postgres with applied migration and simply run `python -
 
 - No `flask_sqlalchemy`, which is using globals
 - No applications globals, e.g. `Flask` application, session and etc
+- N-Layered architecture is very scalable
 
 # Disadvantages
 
-- MVC is not scalable, there will be one "very big" component
+- N-Layered design takes more development time to set up
+  and stick to it

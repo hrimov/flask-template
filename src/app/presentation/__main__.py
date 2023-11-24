@@ -3,7 +3,7 @@ from flask import Flask
 from app.presentation import middlewares, routes
 from src.app.infrastructure.config import load_config
 from src.app.infrastructure.log import configure_logging
-from app.database.session import create_session_maker
+from app.infrastructure.database.session import create_session_maker
 
 
 def create_app() -> Flask:
