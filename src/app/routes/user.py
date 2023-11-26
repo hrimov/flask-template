@@ -1,6 +1,6 @@
 from flask import Blueprint, g
 
-from src.app.controllers.users import UserController
+from src.app.controllers.user import UserController
 
 user_blueprint = Blueprint("user", __name__, url_prefix="/users")
 

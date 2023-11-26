@@ -4,7 +4,7 @@ This repo will contain several project structure templates
 for Flask:
 
 - MVC (**current branch**)
-- Layered (TBD)
+- [Layered](https://github.com/hrimov/flask-template/tree/structure/layered)
 
 # Installation
 
@@ -19,4 +19,4 @@ you should have running Postgres with applied migration and simply run `python -
 
 # Disadvantages
 
-- MVC is not scalable, there will be one "very big" component
+- MVC is not really scalable, there will be one "very big" component
