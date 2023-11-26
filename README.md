@@ -16,7 +16,7 @@ you should have running Postgres with applied migration and simply run `python -
 
 - No `flask_sqlalchemy`, which is using globals
 - No applications globals, e.g. `Flask` application, session and etc
-- N-Layered architecture is very scalable
+- N-Layered architecture is more scalable than MVC
 
 # Disadvantages
 
