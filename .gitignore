@@ -5,3 +5,4 @@ __pycache__/
 
 config/local.ini
 /.ruff_cache/
+/.pytest_cache/

@@ -32,6 +32,12 @@ class DatabaseConfig:
 
 
 @dataclass
+class TestDatabaseConfig(DatabaseConfig):
+    pass
+
+
+@dataclass
 class Config:
     app_config: AppConfig
     db_config: DatabaseConfig
+    test_db_config: TestDatabaseConfig

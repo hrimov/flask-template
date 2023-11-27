@@ -4,7 +4,7 @@ import os
 from src.app.infrastructure.config.models import (
     AppConfig,
     Config,
-    DatabaseConfig,
+    DatabaseConfig, TestDatabaseConfig,
 )
 
 
@@ -35,4 +35,13 @@ def load_config(path: str | None = None) -> Config:
         echo=database_data.getboolean("echo"),
     )
 
-    return Config(application_config, database_config)
+    test_database_config = TestDatabaseConfig(
+        host=database_data.get("host"),
+        port=database_data.getint("port"),
+        database=database_data.get("database"),
+        user=database_data.get("user"),
+        password=database_data.get("password"),
+        echo=database_data.getboolean("echo"),
+    )
+
+    return Config(application_config, database_config, test_database_config)
