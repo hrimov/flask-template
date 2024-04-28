@@ -1,8 +1,8 @@
 from pydantic import TypeAdapter
 from sqlalchemy import select
 
-from src.app.models.user import User as UserModel
-from src.app.schemas.user import User as UserSchema
+from app.models.user import User as UserModel
+from app.schemas.user import User as UserSchema
 
 from .base import Controller
 
