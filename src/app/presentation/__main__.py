@@ -1,8 +1,8 @@
 from flask import Flask
 
 from app.presentation import middlewares, routes
-from src.app.infrastructure.config import load_config
-from src.app.infrastructure.log import configure_logging
+from app.infrastructure.config import load_config
+from app.infrastructure.log import configure_logging
 from app.infrastructure.database.session import create_session_maker
 
 

@@ -4,7 +4,7 @@ from typing import Any, Coroutine, ParamSpec, TypeVar
 
 from sqlalchemy.exc import SQLAlchemyError
 
-from src.app.application.common.exceptions import GatewayException
+from app.application.common.exceptions import GatewayException
 
 
 Param = ParamSpec("Param")

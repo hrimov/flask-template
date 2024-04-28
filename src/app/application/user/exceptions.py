@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from src.app.application.common.exceptions import GatewayException, ValidationException
+from app.application.common.exceptions import GatewayException, ValidationException
 
 
 class UserGatewayException(GatewayException):

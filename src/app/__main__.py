@@ -1,4 +1,4 @@
-from src.app.presentation.__main__ import create_app
+from app.presentation.__main__ import create_app
 
 
 def run_dev(

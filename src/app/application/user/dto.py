@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import TypeAlias
 
-from src.app.application.common.dto import DTO
+from app.application.common.dto import DTO
 
 
 @dataclass

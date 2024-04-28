@@ -1,8 +1,8 @@
 from sqlalchemy.orm.session import Session
 
-from src.app.application.user.dto import Users
-from src.app.application.user.interfaces import UserGateway
-from src.app.persistence.gateways.user import UserGatewayImpl
+from app.application.user.dto import Users
+from app.application.user.interfaces import UserGateway
+from app.persistence.gateways.user import UserGatewayImpl
 
 
 class ListUsersUseCase:

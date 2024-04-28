@@ -3,11 +3,11 @@ import json
 from adaptix import Retort
 from flask import Blueprint, g, request
 
-from src.app.application.user.usecases import (
+from app.application.user.usecases import (
     CreateUserUseCase,
     ListUsersUseCase,
 )
-from src.app.application.user.dto import Users
+from app.application.user.dto import Users
 
 
 user_blueprint = Blueprint("user", __name__, url_prefix="/users")

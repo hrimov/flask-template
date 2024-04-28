@@ -1,8 +1,8 @@
 from sqlalchemy.orm.session import Session
 
-from src.app.application.user.dto import UserCreate, User
-from src.app.application.user.interfaces import UserGateway
-from src.app.persistence.gateways.user import UserGatewayImpl
+from app.application.user.dto import UserCreate, User
+from app.application.user.interfaces import UserGateway
+from app.persistence.gateways.user import UserGatewayImpl
 
 
 class CreateUserUseCase:

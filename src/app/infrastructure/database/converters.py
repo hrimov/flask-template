@@ -1,5 +1,5 @@
-from src.app.application.user import dto
-from src.app.infrastructure.database import models
+from app.application.user import dto
+from app.infrastructure.database import models
 
 
 def convert_user_model_to_dto(user: models.User) -> dto.User:

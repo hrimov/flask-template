@@ -3,21 +3,21 @@ from typing import Iterable, NoReturn
 from sqlalchemy import select
 from sqlalchemy.exc import DBAPIError, IntegrityError
 
-from src.app.application.user.interfaces import UserGateway
-from src.app.application.user import dto
-from src.app.application.user.exceptions import (
+from app.application.user.interfaces import UserGateway
+from app.application.user import dto
+from app.application.user.exceptions import (
     GatewayException,
     UserIdAlreadyExists,
     UserIdNotExists,
     UsernameAlreadyExists,
     UsernameNotExists,
 )
-from src.app.infrastructure.database import models
-from src.app.infrastructure.database.converters import (
+from app.infrastructure.database import models
+from app.infrastructure.database.converters import (
     convert_user_dto_to_model,
     convert_user_model_to_dto,
 )
-from src.app.infrastructure.database.exception_mapper import exception_mapper
+from app.infrastructure.database.exception_mapper import exception_mapper
 
 from .base import DatabaseGateway
 
