@@ -1,7 +1,7 @@
 import configparser
 import os
 
-from src.app.infrastructure.config.models import (
+from app.infrastructure.config.models import (
     AppConfig,
     Config,
     DatabaseConfig,
